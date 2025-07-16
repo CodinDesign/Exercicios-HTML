@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Exercício HTML 01</title>
+</head>
+	<body>
+		<h1>Exercício HTML 01</h1>
+		<hr>
+
+		<h2>Lista de material:</h2>
+		<em>"Lista de material: <strong>setor 01</strong>"</em>
+		<table border="2" width="100%">
+			<tr>
+				<th>Código</th>
+				<th>Produto</th>
+				<th>Quantidade</th>
+				<th>Valor Unitário</th>
+				<th>valor Total</th>
+			</tr>
+
+			<tr>
+				<td>001</td>
+				<td>Caderno</td>
+				<td>30</td>
+				<td>R$13,99</td>
+				<td>R$419,70</td>
+			</tr>
+
+			<tr>
+				<td>002</td>
+				<td>Lapís</td>
+				<td>50</td>
+				<td>R$0,99</td>
+				<td>R$49,50</td>
+			</tr>
+
+			<tr>
+				<td>003</td>
+				<td>Caneta</td>
+				<td>50</td>
+				<td>R$1,50</td>
+				<td>R$75,00</td>
+			</tr>
+
+			<tr>
+				<td colspan="4">Valor total:</td>
+				<td >R$544,20</td>
+			</tr>
+		</table>
+		<hr>
+
+		<h2>Formulario de envio:</h2>
+		
+		<form action="dados.php" method="POST">
+			<strong>Usuário</strong><br>
+			<input type="text" name="usuario" required><br>
+
+			<strong>Senha</strong><br>
+			<input type="password" name="senha" required><br>
+
+			<strong>Observação</strong><br>
+			<textarea></textarea><br>
+
+			<input type="submit" name="enviar">
+
+		</form>
+
+
+	</body>
+</html>
